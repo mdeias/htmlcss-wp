@@ -18,29 +18,31 @@
   margin: auto;
 }
 
-.sezione-superiore {
-  margin-top: 30px;
-}
 
 .margine-inferiore {
   margin-bottom: 30px;
+}
+
+.nero{
+  border-radius: 10px;
+  background-color: black;
 }
 
 /* stili sezione superiore */
 
 .sezione-superiore {
   min-height: 80px;
-  margin-top: 20px; 
+  margin-top: 0px; 
 }
 
 /* logo  */
 
 .logo{
-  width: 210px;
-  height: 80px;
+  width: 160px;
+  height: 60px;
   display: inline-block;
-  background-image: url("../img/logo.png");
-  background-size: 180px 80px;
+  background-image: url("../img/logo.png"); 
+  background-size: 140px 60px;
   background-repeat: no-repeat;
   border-right: 1px solid black;
   margin-bottom: 40px;
@@ -70,9 +72,11 @@ nav li a:hover, nav li a:active{
 .jumbotron {
   min-height: 420px;
   margin: 20px auto;
-  background-image: url("../img/banner.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/banner.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  border-radius: 10px; 
+   opacity: 0.6;   
 }
 
 .jumbotron .testo-jumbo{
@@ -80,7 +84,6 @@ nav li a:hover, nav li a:active{
   margin: auto;
   margin-left: 30px;
   padding-top: 130px;
-  vertical-align: middle;
   color: white;
 }
 
@@ -92,8 +95,7 @@ nav li a:hover, nav li a:active{
   margin-bottom: 20px;
 }
 
-.main-middle .titolo{
-  fon
+.main-middle .titolo {
   font-weight: bolder;
 }
 
@@ -114,7 +116,6 @@ nav li a:hover, nav li a:active{
 .main-bottom {
   min-height: 350px;
   margin-bottom: 10px;
-  background-color: blue;
 }
 
 /* footer  */
@@ -122,28 +123,76 @@ nav li a:hover, nav li a:active{
 .footer-bot {
   height: 40px;
   margin-bottom: 20px;
-  background-color: rebeccapurple;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 20px;
 }
 
 /* stili specifici float  */
+
+/* float sinistra */
 
 .menu {
   width: 19%;
   margin: 1% auto;
   min-height: 350px;
-  background-color: lightblue;
 }
+
+.img1 {
+  min-height: 150px;
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+/* float centrale  */
 
 .contenuto {
   width: 60%;
   margin: 1%;
   min-height: 350px;
-  background-color: lightblue;
 }
+
+.img2{
+  background-image: url(../img/banner-2.jpg);
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+/* float destra */
 
 .widget {
   width: 19%;
   margin: 1% auto;
   min-height: 350px;
-  background-color: lightblue;
+}
+
+.img3 {
+  background-image: url(../img/img-3.jpg);
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+/* testo float  */
+
+.floath3{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.floatp{
+  font-size: 11px;
+  color: darkgray;
+}
+
+
+.cuore {
+  font-size: 13px;
+  color: red;
 }
