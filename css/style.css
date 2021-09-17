@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -17,7 +18,7 @@
   margin: auto;
 }
 
-.margine-superiore {
+.sezione-superiore {
   margin-top: 30px;
 }
 
@@ -27,25 +28,79 @@
 
 /* stili sezione superiore */
 
-header {
-  height: 80px;
-  margin-top: 20px;
-  background-color:fuchsia;
-  
+.sezione-superiore {
+  min-height: 80px;
+  margin-top: 20px; 
 }
 
+/* logo  */
+
+.logo{
+  width: 210px;
+  height: 80px;
+  display: inline-block;
+  background-image: url("../img/logo.png");
+  background-size: 180px 80px;
+  background-repeat: no-repeat;
+  border-right: 1px solid black;
+  margin-bottom: 40px;
+  padding-right: 30px;
+}
+
+/* nav */
+
+
+nav li{
+ list-style: none;
+ display: inline-block;
+ margin-right: 10px;
+}
+
+nav li a, nav li a:visited{
+ text-decoration: none;
+ color: darkgray;
+}
+
+nav li a:hover, nav li a:active{
+  color: indianred;
+}
+
+/* jumbotrone */
 
 .jumbotron {
-  min-height: 300px;
+  min-height: 420px;
   margin: 20px auto;
-  background-color: khaki;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
+.jumbotron .testo-jumbo{
+  width: 60%;
+  margin: auto;
+  margin-left: 30px;
+  padding-top: 130px;
+  vertical-align: middle;
+  color: white;
+}
+
 
 /* stili sezione centrale */
 
 .main-middle {
-  height: 50px;
-  background-color: lightblue;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+
+.main-middle .titolo{
+  fon
+  font-weight: bolder;
+}
+
+.main-middle .sottotitolo{
+  font-size: 10px;
+  color: darkgray;
+
 }
 
 /* float  */
