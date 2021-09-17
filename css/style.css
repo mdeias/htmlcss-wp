@@ -1,0 +1,94 @@
+/* stili generali */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.margine-superiore {
+  margin-top: 30px;
+}
+
+.margine-inferiore {
+  margin-bottom: 30px;
+}
+
+/* stili sezione superiore */
+
+header {
+  height: 80px;
+  margin-top: 20px;
+  background-color:fuchsia;
+  
+}
+
+
+.jumbotron {
+  min-height: 300px;
+  margin: 20px auto;
+  background-color: khaki;
+}
+
+/* stili sezione centrale */
+
+.main-middle {
+  height: 50px;
+  background-color: lightblue;
+}
+
+/* float  */
+
+.menu, .contenuto, .widget {
+  float: left;
+ }
+
+ /* contenitore float  */
+
+.main-bottom {
+  min-height: 350px;
+  margin-bottom: 10px;
+  background-color: blue;
+}
+
+/* footer  */
+
+.footer-bot {
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: rebeccapurple;
+}
+
+/* stili specifici float  */
+
+.menu {
+  width: 19%;
+  margin: 1% auto;
+  min-height: 350px;
+  background-color: lightblue;
+}
+
+.contenuto {
+  width: 60%;
+  margin: 1%;
+  min-height: 350px;
+  background-color: lightblue;
+}
+
+.widget {
+  width: 19%;
+  margin: 1% auto;
+  min-height: 350px;
+  background-color: lightblue;
+}
