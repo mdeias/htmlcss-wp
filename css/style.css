@@ -23,10 +23,7 @@
   margin-bottom: 30px;
 }
 
-.nero{
-  border-radius: 10px;
-  background-color: black;
-}
+
 
 /* stili sezione superiore */
 
@@ -35,7 +32,6 @@
   margin-top: 0px; 
 }
 
-/* logo  */
 
 .logo{
   width: 160px;
@@ -70,13 +66,12 @@ nav li a:hover, nav li a:active{
 /* jumbotrone */
 
 .jumbotron {
-  min-height: 420px;
-  margin: 20px auto;
+  min-height: 420px; 
+  margin: 25px auto;
   background-image: url("../img/banner.jpg"); 
   background-size: cover; 
   background-position: center; 
-  border-radius: 10px; 
-   opacity: 0.6;   
+  border-radius: 10px;   
 }
 
 .jumbotron .testo-jumbo{
@@ -86,7 +81,6 @@ nav li a:hover, nav li a:active{
   padding-top: 130px;
   color: white;
 }
-
 
 /* stili sezione centrale */
 
@@ -113,8 +107,7 @@ nav li a:hover, nav li a:active{
 
  /* contenitore float  */
 
-.main-bottom {
-  min-height: 350px;
+.main-bottom { 
   margin-bottom: 10px;
 }
 
@@ -128,6 +121,11 @@ nav li a:hover, nav li a:active{
   padding-top: 20px;
 }
 
+.cuore {
+  font-size: 13px;
+  color: red;
+}
+
 /* stili specifici float  */
 
 /* float sinistra */
@@ -135,7 +133,6 @@ nav li a:hover, nav li a:active{
 .menu {
   width: 19%;
   margin: 1% auto;
-  min-height: 350px;
 }
 
 .img1 {
@@ -143,7 +140,6 @@ nav li a:hover, nav li a:active{
   background-image: url(../img/img-1.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.6;
 }
 
 /* float centrale  */
@@ -151,7 +147,6 @@ nav li a:hover, nav li a:active{
 .contenuto {
   width: 60%;
   margin: 1%;
-  min-height: 350px;
 }
 
 .img2{
@@ -159,7 +154,6 @@ nav li a:hover, nav li a:active{
   min-height: 150px;
   background-position: center;
   background-size: cover;
-  opacity: 0.6;
 }
 
 /* float destra */
@@ -167,7 +161,6 @@ nav li a:hover, nav li a:active{
 .widget {
   width: 19%;
   margin: 1% auto;
-  min-height: 350px;
 }
 
 .img3 {
@@ -175,7 +168,6 @@ nav li a:hover, nav li a:active{
   min-height: 150px;
   background-position: center;
   background-size: cover;
-  opacity: 0.6;
 }
 
 /* testo float  */
@@ -191,8 +183,3 @@ nav li a:hover, nav li a:active{
   color: darkgray;
 }
 
-
-.cuore {
-  font-size: 13px;
-  color: red;
-}
